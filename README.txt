@@ -4,6 +4,9 @@
 
 University project for the course 01URPOV - Machine Learning for Vision and Multimedia - at Politecnico di Torino.
 
+All project's code, data and models are in the following GitHub repository:
+https://github.com/franci1710/rnn_cnn_sysid
+
 
 #################
 #    Authors    #
