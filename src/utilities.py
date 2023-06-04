@@ -5,6 +5,12 @@ from datetime import datetime
 
 def get_model_purpose():
 
+  """Prompt the user to choose the purpose of the model training.
+
+  @rtype: str
+  @returns: Chosen model purpose.
+  """
+
   print("*********************************************")
   print("*                                           *")
   print("*    AI-BASED SYSTEM IDENTIFICATION TOOL    *")
@@ -39,6 +45,14 @@ def get_model_purpose():
 
 def mkdir_model_checkpoints(models_path):
 
+  """Create a directory path to store the new model checkpoints during training.
+
+  @type models_path: str
+  @param models_path: Path to the directory where models are stored.
+  @rtype: str
+  @returns: Path to the new model checkpoints directory.
+  """
+  
   # get timestamp of current date-time (CET time zone)
   current_datetime = datetime.now(pytz.timezone('Europe/Berlin'))
   current_datetime_str = current_datetime.strftime("%Y%m%d_%H%M%S")
@@ -47,3 +61,4 @@ def mkdir_model_checkpoints(models_path):
   model_checkpoints_path = models_path + '/model_' + current_datetime_str
 
   return model_checkpoints_path
+
