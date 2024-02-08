@@ -37,6 +37,7 @@ To modify the behaviour of the code, further indications have been provided in t
 <br/>
 <br/>
 
+<!---
 ---
 ## Loss, metrics and performance of trained models
 ### Model 01
@@ -158,5 +159,5 @@ Example of prediction on **_contig_** test set:
 ![plot10_contig_pred](pictures/prediction_performance/10_contig.png)
 <br/>
 <br/>
-
+-->
 
