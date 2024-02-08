@@ -41,7 +41,7 @@ To modify the behaviour of the code, further indications have been provided in t
 ## Loss, metrics and performance of trained models
 ### Model 01
 MSE (Loss), MAE and $R^{2}$ metrics on **_delta_** train/validation data:
-![plot01_delta_metrics](pictures/train_valid_metrics/01_delta.png)
+![plot01_delta_metrics](./pictures/train_valid_metrics/01_delta.png)
 Example of prediction on **_delta_** test set:
 ![plot01_delta_pred](pictures/prediction_performance/01_delta.png)
 MSE (Loss), MAE and $R^{2}$ metrics on **_contig_** train/validation data:
